@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Tanamu</string>
+
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="title_welcome_page_1">Selamat datang di Tanamu!</string>
+    <string name="title_welcome_page_2">Cari referensi kebunmu dengan mudah dan cepat!</string>
+    <string name="title_welcome_page_3"> Bingung gak punya dasar nanem? Aman!</string>
+    <string name="title_welcome_page_4"> Gunakan !</string>
+    <string name="message_welcome_page_1"> Tanamu hadir untuk membantumu dalam membuat kebun yang kamu mau. Nanem kebun gak nanti-nanti!</string>
+    <string name="message_welcome_page_2"> Tanamu akan merekomendasikan kebun yang paling cocok denganmu, jadi lebih gampang kan?</string>
+    <string name="message_welcome_page_3"> Tanamu Kalimat 3 </string>
+    <string name="message_welcome_page_4"> Tanamu bisa bantu kamu buat kebun hanya dengan satu klik! Langsung aja cobain!</string>
+
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="message_main_page">Mau olahraga apa hari ini, maniez?</string>
+
+    <string name="greeting">Halo %1$s,</string>
+
+    <string name="move_to_signup">Belum punya akun?</string>
+    <string name="move_to_login">Sudah punya akun?</string>
+
+    <string name="welcome_image_view">Welcome Image View</string>
+
+    <string name="home">Beranda</string>
+    <string name="history">Riwayat</string>
+    <string name="profile">Profil</string>
+    <string name="title_activity_detail_lapangan">Detail Lapangan</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+    </string>
+
+    <string name="about_gorena">
+        Gorena is a reservation/booking application that will makes your sports field’s reservation easier!\n\nGorena caters to everyone, from the general public, sports enthusiasts, to sports field owners. With its accurate recommendation system, Gorena can assist you in determining which field is most suitable based on your location, interests, and desired facilities. Gorena also provides detailed information that can instill confidence in your chosen field. With Gorena, you no longer need to hassle contacting each field to inquire about availability and make reservations. With just one click, you can view the schedule of your preferred field and make reservations anytime and anywhere.
+    </string>
+
+    <string name="user_name">Nama User</string>
+    <string name="email_user">Email User</string>
+    <string name="profile_user">profile_user</string>
+    <string name="profile_edit">profile_edit</string>
+    <string name="theme">Tema</string>
+    <string name="language">Bahasa</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="help_center">Pusat Bantuan</string>
+    <string name="search_text">Cari lapangan, yuk!</string>
+    <string name="back_button">Tombol Kembali</string>
+    <string name="field_name">Nama Lapangan</string>
+    <string name="field_rating">5.0</string>
+    <string name="area_name">Nama Daerah</string>
+    <string name="price">Rp 125.000</string>
+    <string name="per_hour">/jam</string>
+    <string name="booking">BOOKING</string>
+    <string name="wifi">Wifi</string>
+    <string name="toilet">Toilet</string>
+    <string name="motor_parking">Motor Parking</string>
+    <string name="car_parking">Car Parking</string>
+    <string name="field_photo">Gambar Lapangan</string>
+    <string name="musholla">Musholla</string>
+    <string name="all">Semua</string>
+    <string name="football">Sepakbola</string>
+    <string name="futsal">Futsal</string>
+    <string name="badminton">Badminton</string>
+    <string name="volley">Voli</string>
+    <string name="basketball">Basket</string>
+    <string name="tenis">Tenis</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="home_text">Rekomendasi untuk kamu</string>
+
+    <string name="title_activity_booking">Booking</string>
+
+    <string name="save">Simpan</string>
+    <string name="start_by">Mulai dari</string>
+    <string name="star_rating">Star Rating</string>
+    <string name="jarak">Jarak</string>
+    <string name="hari_dan_tanggal">Senin, 22 Desember 2023</string>
+    <string name="format_jam">16:00 - 18:00</string>
+    <string name="facility">Fasilitas</string>
+    <string name="status">Status</string>
+    <string name="background_searchbar">Background Searchbar</string>
+    <string name="other_recommendation">Pilihan lain buat kamu</string>
+    <string name="divider">Divider</string>
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="instant_payment">Pembayaran Instan</string>
+    <string name="qris">QRIS</string>
+    <string name="dana">DANA</string>
+    <string name="ovo">OVO</string>
+    <string name="gopay">GoPay</string>
+    <string name="payment">Pembayaran</string>
+    <string name="tanggal_booking">25 Desember 2023</string>
+    <string name="check_in">Check-in</string>
+    <string name="jam_check_in">19:00</string>
+    <string name="check_out">Check-out</string>
+    <string name="jam_check_out">21:00</string>
+    <string name="payment_detail">Rincian Pembayaran</string>
+    <string name="biaya_lapangan">Rp 35.000</string>
+    <string name="field_booking">Booking Lapangan</string>
+    <string name="service_fee">Biaya Layanan</string>
+    <string name="biaya_layanan">RP 4.000</string>
+    <string name="total_payment">Total Pembayaran</string>
+    <string name="bayar">Bayar</string>
+    <string name="transaction_successful">Transaksi Berhasil</string>
+    <string name="payment_successful">Pembayaran Anda berhasil diproses</string>
+    <string name="biaya_total">Rp 39.000</string>
+    <string name="transaction_number_text">Nomor Transaksi</string>
+    <string name="transaction_number">001X2531</string>
+    <string name="tanggal_transaksi">24 Desember 2023</string>
+    <string name="tanggal_transaksi_teks">Tanggal Transaksi</string>
+    <string name="app_setting">Pengaturan Aplikasi</string>
+    <string name="booking_notes">Catatan Pemesanan</string>
+    <string name="fine_line">Fine Line</string>
+    <string name="add_here">Tambahkan disini, ya!</string>
+    <string name="user_booking_info">Informasi Pemesan</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="email_address">Alamat Email</string>
+    <string name="phone_number">Nomor Ponsel</string>
+    <string name="syarat_ketentuan"><![CDATA[Syarat & Ketentuan]]></string>
+    <string name="sk">Dengan mendaftarkan akun ini, saya menyetujui syarat dan ketentuan yang berlaku di aplikasi Gorena</string>
+    <string name="pesan">Pesan</string>
+    <string name="field_detail">Detail Lapangan</string>
+    <string name="booking_information">Informasi Pemesanan</string>
+    <string name="bank_mandiri">Bank Mandiri</string>
+    <string name="bank_central_asia_bca">Bank Central Asia (BCA)</string>
+    <string name="bank_negara_indonesia_bni">Bank Negara Indonesia (BNI)</string>
+    <string name="bank_rakyat_indonesia_bri">Bank Rakyat Indonesia (BRI)</string>
+    <string name="bank_syariah_indonesia_bsi">Bank Syariah Indonesia (BSI)</string>
+    <string name="home_background">home_background</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:background="@color/background_prime"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_welcome_scene"
+    tools:context=".view.welcome.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/logo_gorena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_tanamu"/>
+
+    <ImageView
+        android:id="@+id/welcome_image_1"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/img_welcome1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <ImageView
+        android:id="@+id/welcome_title_1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/iti"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_image_1"
+        app:layout_constraintStart_toStartOf="@+id/welcome_image_1"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_image_1" />
+
+    <ImageView
+        android:id="@+id/welcome_image_2"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:src="@drawable/img_welcome2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/welcome_title_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_image_2"
+        app:layout_constraintStart_toStartOf="@+id/welcome_image_2"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_image_2"
+        android:text="@string/title_welcome_page_2" />
+
+    <TextView
+        android:id="@+id/desc_welcome_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:text="@string/message_welcome_page_2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_title_2"
+        app:layout_constraintStart_toStartOf="@+id/welcome_title_2"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title_2" />
+
+    <ImageView
+        android:id="@+id/welcome_image_3"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:src="@drawable/img_welcome3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/welcome_title_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_image_3"
+        app:layout_constraintStart_toStartOf="@+id/welcome_image_3"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_image_3"
+        android:text="@string/title_welcome_page_3" />
+
+    <TextView
+        android:id="@+id/welcome_desc_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_title_3"
+        app:layout_constraintStart_toStartOf="@+id/welcome_title_3"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title_3"
+        android:text="@string/message_welcome_page_3" />
+
+    <ImageView
+        android:id="@+id/welcome_image_4"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:src="@drawable/img_welcome4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/welcome_title_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_image_4"
+        app:layout_constraintStart_toStartOf="@+id/welcome_image_4"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_image_4"
+        android:text="@string/title_welcome_page_4" />
+
+    <TextView
+        android:id="@+id/welcome_desc_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/popiin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_title_4"
+        app:layout_constraintStart_toStartOf="@+id/welcome_title_4"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title_4"
+        android:text="@string/message_welcome_page_4" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/circle_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintEnd_toStartOf="@+id/circle_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_circle_outlined"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/circle_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_1"
+        app:layout_constraintEnd_toStartOf="@+id/circle_3"
+        app:layout_constraintStart_toEndOf="@+id/circle_1"
+        app:layout_constraintTop_toTopOf="@+id/circle_1"
+        app:srcCompat="@drawable/ic_circle_outlined"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/circle_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_2"
+        app:layout_constraintEnd_toStartOf="@+id/circle_4"
+        app:layout_constraintStart_toEndOf="@+id/circle_2"
+        app:layout_constraintTop_toTopOf="@+id/circle_2"
+        app:srcCompat="@drawable/ic_circle_outlined"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/circle_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="32dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circle_3"
+        app:layout_constraintTop_toTopOf="@+id/circle_3"
+        app:srcCompat="@drawable/ic_circle_outlined"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/signup"
+            android:fontFamily="@font/popiin"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="18dp"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/login"
+            android:fontFamily="@font/popiin"
+            android:textStyle="bold"
+            android:textColor="@color/background_prime"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="18dp"
+            app:layout_constraintStart_toEndOf="@+id/btn_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

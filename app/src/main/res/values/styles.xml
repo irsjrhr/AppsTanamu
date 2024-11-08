@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- styles.xml -->
+    <style name="RoundedCornerImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/modal_anim</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@drawable/rounded_searchview_background</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:queryHint">Cari lapangan, yuk!</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="searchIcon">@color/orange700</item>
+        <item name="closeIcon">@color/white</item>
+        <item name="android:submitBackground">@color/white</item>
+        <item name="android:goIcon">@color/white</item>
+        <item name="android:searchHintIcon">@color/white</item>
+    </style>
+
+</resources>
